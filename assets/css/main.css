@@ -19,7 +19,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
+  --color-primary: #293462;
   --color-secondary: #FFCB42;
 }
 
@@ -187,52 +187,6 @@ section {
   visibility: visible;
   opacity: 1;
   bottom: 15px;
-}
-
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  inset: 0;
-  z-index: 999999;
-  overflow: hidden;
-  background: #fff;
-  transition: all 0.6s ease-out;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #fff;
-  border-color: var(--color-primary) transparent var(--color-primary) transparent;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1.5s linear infinite;
-  animation: animate-preloader 1.5s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 /*--------------------------------------------------------------
@@ -1936,6 +1890,25 @@ section {
   margin-bottom: 20px;
   color: #fff;
 }
+
+.hero h2 span {
+  color: #B9FFF8;
+  transition: 0.3s;
+  -webkit-animation: glow-2 1s ease-in-out infinite alternate;
+  -moz-animation: glow-2 1s ease-in-out infinite alternate;
+  animation: glow-2 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow-2 {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 1px #ffffff;
+  }
+
+  to {
+    text-shadow: 0 0 2px #ffffff, 0 0 2px #1f90fa, 0 0 2px #1f90fa, 0 0 2px #1f90fa, 0 0 2px #1f90fa, 0 0 2px #1f90fa, 0 0 2px #1f90fa;
+  }
+}
+
 
 .hero p {
   color: rgba(255, 255, 255, 0.6);
