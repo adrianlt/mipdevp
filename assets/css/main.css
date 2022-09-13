@@ -8,7 +8,7 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #526EC2;
+  --color-primary: #056e6d;
   --color-secondary: #16df7e;
 }
 
@@ -244,7 +244,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
-  background-color: var(--color-primary);
+  background-color: #fff;
 }
 
 .header.sticked {
@@ -316,7 +316,7 @@ section {
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-primary);
     white-space: nowrap;
     transition: 0.3s;
     position: relative;
@@ -353,7 +353,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: var(--color-secondary);
   }
 
   .navbar .dropdown ul {
@@ -452,7 +452,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 52, 131, 0.466);
+    background: var(--color-primary);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -518,7 +518,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-primary);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -551,7 +551,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(72, 62, 209, 0.8);
+    background: var(--color-secondary);
     z-index: 9996;
   }
 }
@@ -1886,7 +1886,7 @@ section {
   width: 100%;
   height: 90vh;
   position: relative;
-  background-color: var(--color-primary);
+  background-color: #fff;
   /*background-color: #3d4e81;
   background-image: linear-gradient(90deg, #3d4e81 0%, #5753c9 50%, #6e7ff3 100%);*/
   padding: 10px 0 0 0;
@@ -1902,7 +1902,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #fff;
+  color: var(--color-primary);
 }
 
 .hero .img {
@@ -1911,11 +1911,11 @@ section {
 }
 
 .hero h1 span {
-  color: #B9FFF8;
+  color: var(--color-secondary);
   transition: 0.3s;
-  -webkit-animation: glow-2 1s ease-in-out infinite alternate;
-  -moz-animation: glow-2 1s ease-in-out infinite alternate;
-  animation: glow-2 1s ease-in-out infinite alternate;
+  -webkit-animation: glow-2 2s ease-in-out infinite alternate;
+  -moz-animation: glow-2 2s ease-in-out infinite alternate;
+  animation: glow-2 2s ease-in-out infinite alternate;
 }
 
 @keyframes glow-2 {
@@ -1924,13 +1924,13 @@ section {
   }
 
   to {
-    text-shadow: 0 0 2px #ffffff, 0 0 2px #1f90fa, 0 0 2px #1f90fa, 0 0 2px #1f90fa, 0 0 2px #1f90fa, 0 0 2px #1f90fa, 0 0 2px #1f90fa;
+    text-shadow: 0 0 2px #f2fa82, 0 0 2px #f2fa82, 0 0 2px #f2fa82, 0 0 2px #f2fa82, 0 0 2px #f2fa82, 0 0 2px #f2fa82, 0 0 2px #f2fa82;
   }
 }
 
 
 .hero p {
-  color: rgba(255, 255, 255, 0.945);
+  color: #6c757d;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -1958,12 +1958,12 @@ section {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  color: #fff;
+  color: var(--color-primary);
   font-weight: 600;
 }
 
 .hero .btn-watch-video i {
-  color: rgb(255, 255, 255);
+  color: var(--color-primary);
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
@@ -1971,7 +1971,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: #fff;
+  color: #1f90fa;
 }
 
 @media (max-height: 700px) {
