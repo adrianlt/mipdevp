@@ -1803,7 +1803,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: #1f90fa;
+  color: var(--color-secondary);
 }
 
 @media (max-height: 700px) {
