@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/mipdevpc/public_html/web
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
