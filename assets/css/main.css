@@ -1493,8 +1493,9 @@ section {
 }
 
 .recent-posts .post-img {
-  max-height: 240px;
-  margin: -30px -30px 15px -30px;
+  width: 100%;
+  height: auto;
+  margin: -10px -30px 15px 0px;
   overflow: hidden;
 }
 
