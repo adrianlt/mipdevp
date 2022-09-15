@@ -37,8 +37,7 @@
   <link href="assets/css/google-font.css" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -50,6 +49,9 @@
   <link rel="preload" href="assets/img/hero-img.png" as="image">
   <link rel="preload" href="assets/img/logo-mipdevp-buat-website-terkini-terjangkau.png" as="image">
   <link rel="preload" href="assets/img/favicon.png" as="image">
+
+  <link rel="preload" href="assets/vendor/bootstrap-icons/bootstrap-icons.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript> <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css"> </noscript>
 
   <script type="application/ld+json">
     {
@@ -157,7 +159,7 @@
         <div class="row gy-4">
           <div class="col-lg-6">
             <!--<h3>Voluptatem dignissimos provident quasi corporis</h3>-->
-            <img src="assets/img/tentang-mipdevp-jasa-buat-website-impian-anda.png" class="img-fluid rounded-1" alt="tentang mipdevp jasa pembuatan website">
+            <img data-src="assets/img/tentang-mipdevp-jasa-buat-website-impian-anda.png" class="img-fluid rounded-1 lazyload" alt="tentang mipdevp jasa pembuatan website">
           </div>
           <div class="col-lg-6">
             <div class="content ps-0 ps-lg-5">
@@ -176,7 +178,7 @@
               </ul>
               <p>
                 Kami menyediakan solusi dalam menyediakan aplikasi
-                teroptimalisasi yang berguna untuk <span>kemajuan dan kelancaran bisnis
+                teroptimasi yang berguna untuk <span>kemajuan dan kelancaran bisnis
                   anda.</span> MIPDEVP dapat menjadi jembatan dalam mewujudkan kemajuan usaha
                 Anda!
               </p>
@@ -275,7 +277,7 @@
                 <i class="bi bi-building"></i>
               </div>
               <h3>Company Profile</h3>
-              <p>Website company profile, landing page untuk Perusahaan, Pemerintahan, Bisnis/UMKM dan Personal. </br> Jangkau lebih banyak customer ataupun pengunjung yang baru. </p>              
+              <p>Website company profile, landing page untuk Perusahaan, Pemerintahan, Bisnis/UMKM dan Personal. <br> Jangkau lebih banyak customer ataupun pengunjung yang baru. </p>              
             </div>
           </div><!-- End Service Item -->
 
@@ -284,8 +286,8 @@
               <div class="icon">
                 <i class="bi bi-graph-up"></i>
               </div>
-              <h3>Aplikasi Website</h3>
-              <p>Kebutuhan Bisnis anda mulai dari Inventori, Sistem Informasi, E-Commerce, Test Ujian, dsb. dalam Aplikasi Website bisa anda wujudkan di sini.</p>              
+              <h3 style="font-size: 20px;">Aplikasi Website &amp; Mobile</h3>
+              <p>Kegiatan bisnis terdigitalisasi dan teroptimasi dalam Aplikasi Website bisa anda wujudkan di sini. Aplikasi Website bisa di sesuaikan menjadi Aplikasi Mobile sesuai kebutuhan Anda.</p>              
             </div>
           </div><!-- End Service Item -->
 
@@ -495,7 +497,7 @@
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Bisa banget! Untuk anda yang kesulitan dalam projek atau tugas kuliah, tim MIPDEVP menyediakan Kursus Singkat sampai problem 
-                    terselesaikan.</br> Biaya kursus menyesuaikan kompleksitas pemrograman anda dan bisa didiskusikan lebih lanjut.
+                    terselesaikan.<br> Biaya kursus menyesuaikan kompleksitas pemrograman anda dan bisa didiskusikan lebih lanjut.
                   </div>
                 </div>
               </div><!-- # Faq item-->
@@ -627,7 +629,7 @@
               </div>
               <p class="post-category">CSS - Javascript</p>
               <h2 class="title">
-                <a href="https://www.youtube.com/embed/r6qixX0VPWo" target="_blank" rel="noreferrer noopener">Tutorial CSS & Javascript | Membuat Snackbar</a>
+                <a href="https://www.youtube.com/embed/r6qixX0VPWo" target="_blank" rel="noreferrer noopener">Tutorial CSS &amp; Javascript | Membuat Snackbar</a>
               </h2>
 
             </article>
@@ -664,9 +666,9 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
           <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/logo-putih-mipdevp.png" alt="logo mipdevp warna putih buat website terjangkau dan terkini">
+            <img data-src="assets/img/logo-putih-mipdevp.png" class="lazyload" alt="logo mipdevp warna putih buat website terjangkau dan terkini">
           </a>
-          <p>Kembangkan bisnismu dengan Website Terkini! </br>
+          <p>Kembangkan bisnismu dengan Website Terkini! <br>
             Melayani pembuatan Aplikasi Website dan Landing Page untuk jangkau lebih banyak pelanggan!</p>
           <div class="social-links d-flex mt-4">
             <a href="https://www.youtube.com/c/MipdevpChannel" target="_blank" rel="noreferrer noopener" class="youtube"><i class="bi bi-youtube"></i></a>        
